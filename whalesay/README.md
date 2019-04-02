@@ -1,8 +1,8 @@
 # Whalesay Dockerized
 
 Para construir a imagem entre em um terminal e esteja
-dentro do diretório onde se encontra o arquivo `Dockerfile`
-e o `entrypoint.sh`.
+dentro do diretório onde se encontra o arquivo `Dockerfile`,
+`entrypoint.sh` e `whale.cow`.
 
 Defina o `entrypoint.sh` como executável com:
 
@@ -27,5 +27,5 @@ docker run aprendendodocker/whalesay
 2. Para mostrar a sua mensagem:
 
 ```bash
-docker run aprendendodocker/cowsay "Heeeeee"
+docker run aprendendodocker/whalesay "Heeeeee"
 ```
