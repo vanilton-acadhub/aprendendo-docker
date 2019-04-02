@@ -1,0 +1,22 @@
+#
+#   Uma modificação de docker.cow em https://github.com/docker/whalesay/blob/master/docker.cow
+#
+
+$the_cow = <<EOC;
+    $thoughts
+     $thoughts
+      $thoughts
+EOC
+$the_cow .= <<'EOC';
+                    ##
+                 ## ##         .
+              ## ## ##        ==
+           ## ## ## ## ##    ===
+       /"""""""""""""""""\___/ ===
+      {                       /  ===-
+       \______ O           __/
+         \    \         __/
+          \____\_______/
+
+        Continue aprendendo o Docker! Heeeeeeee!
+EOC

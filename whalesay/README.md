@@ -1,4 +1,4 @@
-# Cowsay Dockerized
+# Whalesay Dockerized
 
 Para construir a imagem entre em um terminal e esteja
 dentro do diretório onde se encontra o arquivo `Dockerfile`
@@ -13,7 +13,7 @@ chmod +x entrypoint.sh
 Depois utilize o comando:
 
 ```bash
-docker build -t aprendendodocker/cowsay .
+docker build -t aprendendodocker/whalesay .
 ```
 
 Para utilizar a imagem existem dois modos
@@ -21,7 +21,7 @@ Para utilizar a imagem existem dois modos
 1. Para mostrar uma mensagem aleatória:
 
 ```bash
-docker run aprendendodocker/cowsay
+docker run aprendendodocker/whalesay
 ```
 
 2. Para mostrar a sua mensagem:
@@ -29,6 +29,3 @@ docker run aprendendodocker/cowsay
 ```bash
 docker run aprendendodocker/cowsay "Heeeeee"
 ```
-
----
-![cowsay-printscreen](cowsay-printscreen.png)
