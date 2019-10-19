@@ -1,5 +1,5 @@
 FROM debian:stretch
-LABEL maintainer="github.com/vanilton-acadhub"
+LABEL maintainer="github.com/vanilton-filho"
 
 RUN apt-get update && apt-get install -y cowsay fortunes-br
 COPY entrypoint.sh /
